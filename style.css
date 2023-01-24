@@ -1,0 +1,198 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+body {
+    margin: 0;  
+}
+
+header,
+main,
+footer {
+    background-color: black;
+    margin-top: 0;
+}
+
+div.logo-wrapper img {
+    width: 150px;
+    margin-left: 120px;
+    padding: 10px;
+}
+
+
+li.menu-item {
+    display: inline;
+}
+
+ul.main-menu {
+    margin: 0;
+    padding: 0 100px 10px 0;
+    text-align: right;
+}
+
+a.menu-link {
+    color: white;
+    text-decoration: none;
+    padding: 16px; 
+    font-weight: 600;
+    font-size: 14px;
+}
+
+a.menu-link.button,
+.button.service {
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px 20px; 
+    font-weight: 600;
+    background-color: #1200ff;
+    border: #1200ff;
+    border-radius: 35px;
+}
+
+a.menu-link.button:hover,
+.button.service:hover {
+    color: white;
+    background-color: rgb(65,88,208);
+}
+
+a.menu-link.button:active,
+.button.service:active{
+    background-color: rgba(23, 44, 153);
+    box-shadow: 0 0 0 3px rgba(9, 7, 143, 0.3);
+}
+
+a.menu-link:hover {
+    color: rgb(153, 144, 144);
+}
+
+section.hero-box {
+    color: white;
+    padding-bottom: 130px;
+}
+
+h1.page-title {
+    margin-top: 0;
+    margin-left: 220px;
+    margin-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 90px;
+}
+
+div.page-description {
+    margin-left: 220px;
+    font-size: 18px;     
+}
+
+div.service-list {
+    margin-top: 400px;
+    margin-left: 220px; 
+    margin-right: 850px;
+}
+
+p.service-title-description {
+    margin: 0;
+}
+
+a.button.service {
+    display: inline-block;
+    margin-top: 30px;
+    width: 160px;
+    text-align: center;
+}
+
+section.stats {
+    background-color: white;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    padding-bottom: 50px;
+}
+
+h2.section-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 72px;
+    padding-left: 130px;
+    margin-top: 0;
+}
+
+div.stats.description {
+    padding-left: 330px;
+    margin-bottom: 60px;
+    font-weight: 600;
+    font-size: 14px
+}
+
+p.stats-description-paragraph {
+    padding-left: 330px;
+    margin-bottom: 60px;
+    margin: 0;
+    padding-right: 560px;
+    font-size: 16px;
+}
+
+ul.stats-list {
+    display: inline;
+    padding-right: 560px;
+}
+
+div.stats-value {
+    font-family: sans-serif;
+    font-size: 75px;
+    padding-left: 330px;
+    margin-bottom: 15px;
+}
+
+footer {
+    padding-left: 130px;
+}
+
+li.footer-menu-item,
+li.address-item,
+li.social-media-icon {
+    list-style-type: none;
+}
+
+ul.footer-menu,
+ul.footer-address-list,
+ul.social-media-list {
+    padding-left: 0;
+}
+
+li.social-media-icon {
+    display: inline;
+}
+
+a.footer-menu-link,
+a.footer-address-link {
+    text-decoration: none;
+    color: #929497;
+    font-size: 14px;   
+}
+
+a.footer-menu-link:hover,
+a.footer-address-link:hover,
+a.codeacademy-kids:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+h3.address-heading {
+    text-transform: uppercase;
+    color: white;
+    font-size: 10px; 
+}
+
+div.footer-description {
+    color: #929497;
+}
+
+a.codeacademy-kids {
+    color: white;
+}
+
+div.footer-logo-wrapper img {
+    width: 150px;
+    padding: 10px;
+}
